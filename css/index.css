@@ -11,7 +11,7 @@ body {
   border-radius: 0; }
 
 /*===== Media Queries =====*/
-@media (max-width: 1199.98px) {
+@media (min-width: 1920px) {
   .navbar {
     background-color: white; }
 

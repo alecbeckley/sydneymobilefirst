@@ -37,8 +37,8 @@ body {
 
 }
 
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {
+// Large devices (laptops/desktops, more than 1920px)
+@media (min-width: 1920px) {
 
     //Navigation Bar
     .navbar {
