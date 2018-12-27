@@ -11,5 +11,22 @@ body {
   border-radius: 0; }
 
 /*===== Media Queries =====*/
+@media (max-width: 1199.98px) {
+  .navbar {
+    background-color: white; }
+
+  .navbar > .navbar-brand {
+    color: black; }
+
+  .navbar > .collapse > .navbar-nav > .nav-item {
+    color: black; }
+
+  .title-block {
+    background-image: url("../img/bg-1.jpg");
+    height: 60em;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; } }
 
 /*# sourceMappingURL=index.css.map */
