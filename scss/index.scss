@@ -1,4 +1,6 @@
 /*===== Variables ======*/
+$primary-font: 'Montserrat', sans-serif;
+$accent-color: #990000;
 
 /*===== Mixins =====*/
 @mixin background-img {
@@ -26,11 +28,51 @@ body {
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+@media (min-width: 375px) {
 
     //Navigation Bar
-    
+    .navbar {
+        background-color: white;
+        font-family: $primary-font;
+    }
+
+    .navbar-toggler {
+        @include background-img();
+        background-image: url("../img/hamburger.png");
+    }
+
+    .navbar-brand {
+        color: black;
+    }
+
+    .nav-item {
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-item:hover {
+        color: $accent-color;
+    }
     //Navigation Bar
+
+    //Title Container
+    .title-block {
+        height: 30em;
+    }
+    //Title Container
+
+    //About
+    //About
+
+    //Portfolio
+    //Portfolio
+
+    //Clients
+    //Clients
+
+    //Footer
+    //Footer
 
 }
 

@@ -11,5 +11,29 @@ body {
   border-radius: 0; }
 
 /*===== Media Queries =====*/
+@media (min-width: 375px) {
+  .navbar {
+    background-color: white;
+    font-family: "Montserrat", sans-serif; }
+
+  .navbar-toggler {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/hamburger.png"); }
+
+  .navbar-brand {
+    color: black; }
+
+  .nav-item {
+    color: black;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .nav-item:hover {
+    color: #990000; }
+
+  .title-block {
+    height: 30em; } }
 
 /*# sourceMappingURL=index.css.map */
