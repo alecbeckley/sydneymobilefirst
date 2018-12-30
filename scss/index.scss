@@ -194,15 +194,28 @@ body {
     //Navigation Bar
 
     //Title Container
+    .title-block {
+        height: 50em;
+    }
     //Title Container
 
     //About
     //About
 
     //Portfolio
+    .portfolio > h3 {
+        margin-bottom: 1em;
+    }
+
+    .portfolio {
+        margin-bottom: 40em;
+    }
     //Portfolio
 
     //Clients
+    .clients {
+        margin-bottom: 3em;
+    }
     //Clients
 
     //Footer
