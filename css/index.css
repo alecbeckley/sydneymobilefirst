@@ -58,13 +58,13 @@ body {
     letter-spacing: 8px;
     font-size: 30px; }
 
-  .about > h3 {
+  .about > .container > h3 {
     padding-top: 2em;
     padding-bottom: 1em;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 6px; }
 
-  .about > p {
+  .about > .container > p {
     padding-bottom: 2em; }
 
   .portfolio {
@@ -73,11 +73,11 @@ body {
   .portfolio > h3 {
     letter-spacing: 6px; }
 
-  .clients > h3 {
+  .clients > .container > h3 {
     letter-spacing: 6px;
     padding-bottom: 1em; }
 
-  .clients > p {
+  .clients > .container > p {
     padding-bottom: 1em; }
 
   .footer > .social-media {
@@ -109,6 +109,9 @@ body {
 
   .footer > .social-media > a {
     margin-left: 2em;
-    margin-right: 2em; } }
+    margin-right: 2em; }
+
+  .footer > .copyright {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=index.css.map */

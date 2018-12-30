@@ -87,14 +87,14 @@ body {
     //Title Container
 
     //About
-    .about > h3 {
+    .about > .container > h3 {
         padding-top: 2em;
         padding-bottom: 1em;
         font-family: $primary-font;
         letter-spacing: 6px;
     }
 
-    .about > p {
+    .about > .container > p {
         padding-bottom: 2em;
     }
     //About
@@ -110,12 +110,12 @@ body {
     //Portfolio
 
     //Clients
-    .clients > h3 {
+    .clients > .container > h3 {
         letter-spacing: 6px;
         padding-bottom: 1em;
     }
 
-    .clients > p {
+    .clients > .container > p {
         padding-bottom: 1em;
     }
     //Clients
@@ -181,7 +181,7 @@ body {
     }
 
     .footer > .copyright {
-        
+        font-size: 14px;
     }
     //Footer
 
