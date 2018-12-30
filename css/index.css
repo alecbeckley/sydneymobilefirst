@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
   border-radius: 0; }
 
+html,
+body {
+  font-family: "Montserrat", sans-serif; }
+
 /*===== Media Queries =====*/
 @media (min-width: 375px) {
   .navbar {
@@ -20,10 +24,12 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../img/hamburger.png"); }
+    background-image: url("../img/hamburger.png");
+    background-size: 50%; }
 
   .navbar-brand {
-    color: black; }
+    color: black;
+    letter-spacing: 2px; }
 
   .nav-item {
     color: black;
@@ -31,12 +37,55 @@ body {
     margin-right: auto; }
 
   .nav-item:hover {
-    color: #990000; }
+    color: #00b2e9; }
 
   .title-block {
-    height: 30em; }
+    background-image: url("../img/bg-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 40em; }
+
+  .title-block > h1 {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 4em;
+    letter-spacing: 8px;
+    font-size: 50px; }
+
+  .title-block > h2 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 8px;
+    font-size: 30px; }
+
+  .about > h3 {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 6px; }
+
+  .about > p {
+    padding-bottom: 2em; }
 
   .portfolio {
-    height: 20em; } }
+    height: 20em; }
+
+  .portfolio > h3 {
+    letter-spacing: 6px; }
+
+  .clients > h3 {
+    letter-spacing: 6px;
+    padding-bottom: 1em; }
+
+  .clients > p {
+    padding-bottom: 1em; }
+
+  .footer > .social-media > a > img {
+    width: 1.5em;
+    margin-left: 2.7em;
+    margin-bottom: 1em; }
+
+  .footer > .copyright {
+    font-size: 10px; } }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,6 +1,7 @@
 /*===== Variables ======*/
 $primary-font: 'Montserrat', sans-serif;
-$accent-color: #990000;
+$accent-color: #00b2e9;
+$primary-color: #9300e9;
 
 /*===== Mixins =====*/
 @mixin background-img {
@@ -22,12 +23,17 @@ body {
   border-radius: 0;
 }
 
+html,
+body {
+    font-family: $primary-font;
+}
+
 /*===== Media Queries =====*/
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
+// Small devices (landscape phones, 375px and up)
 @media (min-width: 375px) {
 
     //Navigation Bar
@@ -39,10 +45,12 @@ body {
     .navbar-toggler {
         @include background-img();
         background-image: url("../img/hamburger.png");
+        background-size: 50%;
     }
 
     .navbar-brand {
         color: black;
+        letter-spacing: 2px;
     }
 
     .nav-item {
@@ -58,23 +66,70 @@ body {
 
     //Title Container
     .title-block {
-        height: 30em;
+        background-image: url("../img/bg-1.jpg");
+        @include background-img();
+        background-attachment: fixed;
+        height: 40em;
+    }
+
+    .title-block > h1 {
+        font-family: $primary-font;
+        padding-top: 4em;
+        letter-spacing: 8px;
+        font-size: 50px;
+    }
+
+    .title-block > h2 {
+        font-family: $primary-font;
+        letter-spacing: 8px;
+        font-size: 30px;
     }
     //Title Container
 
     //About
+    .about > h3 {
+        padding-top: 2em;
+        padding-bottom: 1em;
+        font-family: $primary-font;
+        letter-spacing: 6px;
+    }
+
+    .about > p {
+        padding-bottom: 2em;
+    }
     //About
 
     //Portfolio
     .portfolio {
         height: 20em;
     }
+
+    .portfolio > h3 {
+        letter-spacing: 6px;
+    }
     //Portfolio
 
     //Clients
+    .clients > h3 {
+        letter-spacing: 6px;
+        padding-bottom: 1em;
+    }
+
+    .clients > p {
+        padding-bottom: 1em;
+    }
     //Clients
 
     //Footer
+    .footer > .social-media > a > img {
+        width: 1.5em;
+        margin-left: 2.7em;
+        margin-bottom: 1em;
+    }
+
+    .footer > .copyright {
+        font-size: 10px;
+    }
     //Footer
 
 }
@@ -82,14 +137,68 @@ body {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
+    //Navigation Bar
+    //Navigation Bar
+
+    //Title Container
+    //Title Container
+
+    //About
+    //About
+
+    //Portfolio
+    //Portfolio
+
+    //Clients
+    //Clients
+
+    //Footer
+    //Footer
+
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
+    //Navigation Bar
+    //Navigation Bar
+
+    //Title Container
+    //Title Container
+
+    //About
+    //About
+
+    //Portfolio
+    //Portfolio
+
+    //Clients
+    //Clients
+
+    //Footer
+    //Footer
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+
+    //Navigation Bar
+    //Navigation Bar
+
+    //Title Container
+    //Title Container
+
+    //About
+    //About
+
+    //Portfolio
+    //Portfolio
+
+    //Clients
+    //Clients
+
+    //Footer
+    //Footer
 
 }
