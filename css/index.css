@@ -80,12 +80,35 @@ body {
   .clients > p {
     padding-bottom: 1em; }
 
+  .footer > .social-media {
+    display: flex;
+    justify-content: space-evenly; }
+
   .footer > .social-media > a > img {
     width: 1.5em;
-    margin-left: 2.7em;
     margin-bottom: 1em; }
 
   .footer > .copyright {
     font-size: 10px; } }
+@media (min-width: 768px) {
+  .title-block {
+    height: 61em; }
+
+  .title-block > h1 {
+    padding-top: 8em; }
+
+  .portfolio {
+    margin-bottom: 16em; }
+
+  .clients > p {
+    padding-bottom: 2em; }
+
+  .footer > .social-media {
+    display: flex;
+    justify-content: center; }
+
+  .footer > .social-media > a {
+    margin-left: 2em;
+    margin-right: 2em; } }
 
 /*# sourceMappingURL=index.css.map */

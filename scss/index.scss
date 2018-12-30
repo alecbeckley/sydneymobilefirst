@@ -121,9 +121,13 @@ body {
     //Clients
 
     //Footer
+    .footer > .social-media {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     .footer > .social-media > a > img {
         width: 1.5em;
-        margin-left: 2.7em;
         margin-bottom: 1em;
     }
 
@@ -141,18 +145,44 @@ body {
     //Navigation Bar
 
     //Title Container
+    .title-block {
+        height: 61em;
+    }
+
+    .title-block > h1 {
+        padding-top: 8em;
+    }
     //Title Container
 
     //About
     //About
 
     //Portfolio
+    .portfolio {
+        margin-bottom: 16em;
+    }
     //Portfolio
 
     //Clients
+    .clients > p {
+        padding-bottom: 2em;
+    }
     //Clients
 
     //Footer
+    .footer > .social-media {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer > .social-media > a {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .footer > .copyright {
+        
+    }
     //Footer
 
 }
